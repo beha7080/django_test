@@ -13,3 +13,6 @@ class Foydalanuvchilar(models.Model):
         return str(self.ismi)
 
 
+
+
+#vnfeuivbfe

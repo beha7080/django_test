@@ -6,3 +6,4 @@ class BirinchiSerializer(ModelSerializer):
     class Meta:
         model = PayHistory
         fields = '__all__'
+#bvuireb

@@ -5,4 +5,5 @@ from .models import Foydalanuvchilar
 
 admin.site.register(Foydalanuvchilar,list_display = ['ismi','telefon_raqam','familyasi'])
 
+#cmkdoevne
 

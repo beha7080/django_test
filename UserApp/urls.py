@@ -5,3 +5,6 @@ urlpatterns = [
     path('one/',BittaOdam.as_view())
 
 ]
+
+
+#vmfeiuvnefiu

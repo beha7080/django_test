@@ -9,3 +9,4 @@ class UserSerializer(ModelSerializer):
 
 class BittaOdamSerializer(Serializer):
     name = serializers.CharField(max_length=32)
+#vnieufveriu

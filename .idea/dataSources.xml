@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="db" uuid="fb7f9bac-712e-46e1-82c8-e8275a872e60">
-      <driver-ref>22460e5f-7513-4788-bf60-57fc97471602</driver-ref>
+      <driver-ref>7a475dee-03f0-4082-ae5a-ca525110e0d0</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\Sharifjon\PycharmProjects\DjangoShifu\db.sqlite3</jdbc-url>
@@ -14,7 +14,7 @@
       </libraries>
     </data-source>
     <data-source source="LOCAL" name="db driver - db.sqlite3" uuid="d47891dd-a0f7-4825-9f09-5fb2050bea37">
-      <driver-ref>22460e5f-7513-4788-bf60-57fc97471602</driver-ref>
+      <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>

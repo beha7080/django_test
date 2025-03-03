@@ -5,3 +5,4 @@ urlpatterns = [
     path('hammatolov/', AllHistory.as_view())
 
 ]
+#vfnuevbie
