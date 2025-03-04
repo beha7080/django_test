@@ -27,7 +27,17 @@ class BittaOdam(APIView):
             return Response({'Xabar':"Bunday Foydalanuvchi bazada mavjud emas"},status=200)
 
 
+class Birdona(APIView):
+    serializer_class = BittaOdamSerializer
 
+    def delete(self, request):
+        ismi = request.data.get('name')
+        foydalanuvchi = Foydalanuvchilar.objects.filter(ismi=ismi)
 
+        if foydalanuvchi.exists():
+            foydalanuvchi.delete()
+            return Response({"Xabar": f"{ismi} bazadan o‘chirildi"}, status=200)
+        else:
+            return Response({"Xabar": "Bunday foydalanuvchi topilmadi"}, status=404)
 
 #vnruevbreiu
