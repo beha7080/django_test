@@ -8,5 +8,6 @@ class UserSerializer(ModelSerializer):
         fields = '__all__'
 
 class BittaOdamSerializer(Serializer):
-    name = serializers.CharField(max_length=32)
-#vnieufveriu
+    ismi = serializers.CharField(max_length=32)
+    familyasi = serializers.CharField(max_length=32, required=False)
+    telefon_raqam = serializers.CharField(max_length=15, required=False)
